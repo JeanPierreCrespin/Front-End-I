@@ -1,0 +1,47 @@
+header{
+    background-color: #E6E6E6;
+}
+
+h1{
+    background-color:  #C4C4C4;
+    color: #005677;
+    text-align: center;
+}
+
+main{
+    margin-top: 100px;
+}
+
+pre{
+    font-size: 115%;
+}
+
+footer{
+    margin-top: 300px;
+    background-color: #005677;
+    color: white;
+}
+
+.item-footer{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.img-footer{
+    margin: 10px;
+}
+
+.negrita{
+    text-decoration-style: solid;
+}
+.sub-titulos{
+    background-color: #C4C4C4;
+    color: #005677;
+}
+
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

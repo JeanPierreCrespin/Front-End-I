@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*Header*/
+header{
+    background-color: black;
+}
+header ul{
+    float: right;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+header img{
+    margin: 6px;
+}
+ul li a{
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
+/*Body*/
+body{
+    background-color: #E5E5E5;
+}
+span{
+    color: white;
+}
+ol li{
+    padding:5px;
+}
+.conteiner{
+    display: flex;
+    flex-wrap: wrap column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+.cont-1{
+    background-image: url("/img/delivery.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin: 5px;
+    border-radius: 10px 10px 0px 0px;
+    padding:30px;
+    flex-grow: 3;
+}
+.cont-2{
+    margin:5px;
+    background-color: white;
+    padding: 30px 60px 60px 60px;
+    border-radius: 10px 10px 0px 0px;
+    flex-grow: 3;
+}
+.cont-2-1{
+    display: flex;
+}
+.nav-li{
+    display: flex;   
+}
+.align-center{
+    text-align: center;
+}
+.text-red{
+    color: red;
+}
+.text-sub{
+    margin-top:20px;
+    padding: 10px;
+}
+/*Footer*/
+footer {
+    background-color: black;
+}
+
+footer ul{
+    padding: 5px;
+    
+}
+footer ul li {
+    padding:5px;
+}
+
+.footer-img{
+    float: right;
+    margin-top: -105px;
+    margin-right: 50px;
+}
+
+
+.img-float{
+    margin-left: 40%;
+    margin-right: 40px;
+}
